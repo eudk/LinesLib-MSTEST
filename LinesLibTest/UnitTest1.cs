@@ -68,6 +68,6 @@ public class UnitTest1
         Assert.AreEqual(3, line35.x1);
         Assert.AreEqual(5, line35.y1);
 
-        Assert.IsFalse(10 == line15.y1);
+        Assert.ThrowsException < ArgumentException > (() => line38.Intersection(line1023));
     }
 }
