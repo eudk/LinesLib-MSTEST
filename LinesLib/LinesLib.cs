@@ -47,5 +47,10 @@
             }
             return nyVærdier;
         }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
 }
