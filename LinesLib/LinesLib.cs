@@ -5,6 +5,7 @@
         public int x1 { get; set; }
         public int y1 { get; set; }
 
+        public int y324 { get; set; }
 
 
 
