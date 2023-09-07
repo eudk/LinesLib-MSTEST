@@ -35,5 +35,12 @@
             return x1 == other.x1 && y1 == other.y1;
         }
 
+        public LinesLib Intersection(LinesLib line15)
+        {
+            if (line15.Contain())
+            {
+
+            }
+        }
     }
 }
